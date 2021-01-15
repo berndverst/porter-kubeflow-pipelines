@@ -10,19 +10,21 @@ dockerfile: Dockerfile.tmpl
 mixins:
   - exec
 
+
+
 install:
   - exec:
-    description: "Install"
-    command: bash
-    flags:
-      c: echo installed
+      description: "Install"
+      command: bash
+      flags:
+        c: "'echo installed'"
 
 uninstall:
   - exec:
-    description: "Uninstall"
-    command: bash
-    flags:
-      c: echo uninstalled
+      description: "Uninstall"
+      command: bash
+      flags:
+        c: "'echo uninstalled'"
 
 uploadpipeline:
   - exec:
