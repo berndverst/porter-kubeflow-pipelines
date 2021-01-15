@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-uploadpipeline()
+uploadpipeline() {
   if [ -z "$PIPELINEDESCRIPTION" ]
   then
     kfp pipeline upload -p "$PIPELINENAME" /root/pipeline.tar.gz
