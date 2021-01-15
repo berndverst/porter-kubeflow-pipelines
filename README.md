@@ -1,6 +1,6 @@
 # Porter Kubeflow Pipelines bundle
 
-This is an empty bundle that porter has created to get you started!
+This bundle allows uploading and running of Kubeflow Pipelines to any Kubeflow installation accessible via Kube Config.
 
 # Contents
 
