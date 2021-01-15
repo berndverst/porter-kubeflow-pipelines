@@ -1,4 +1,4 @@
-# My First Bundle
+# Porter Kubeflow Pipelines bundle
 
 This is an empty bundle that porter has created to get you started!
 
