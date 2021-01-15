@@ -37,7 +37,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ github.token }} #does work: ${{ secrets.GHCR_PASSWORD }}
+          password: ${{ secrets.GHCR_PASSWORD }}
       - name: Porter publish to ghcr.io
         run: |
           porter publish --debug
