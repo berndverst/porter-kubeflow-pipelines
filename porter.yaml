@@ -3,8 +3,6 @@ version: 0.1.0
 description: "Porter Kubeflow Pipelines tool"
 registry: ghcr.io/berndverst
 
-# If you want to customize the Dockerfile in use, uncomment the line below and update the referenced file. 
-# See https://porter.sh/custom-dockerfile/
 dockerfile: Dockerfile.tmpl
 
 mixins:
