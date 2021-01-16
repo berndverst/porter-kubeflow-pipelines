@@ -1,5 +1,5 @@
 name: porter-kfp
-version: 0.1.1
+version: 0.1.2
 description: "Porter Kubeflow Pipelines tool"
 registry: ghcr.io/berndverst
 
